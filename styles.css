@@ -12,6 +12,17 @@ header a{
     color: white;
     margin-right: 10px;
     margin-left: 10px;
+    font-family: system-ui;
+    padding: 10px;
+}
+
+.selected-page {
+    font-weight: 800;
+}
+
+header a:hover {
+    background-color: white;
+    color: black;
 }
 
 header h1{

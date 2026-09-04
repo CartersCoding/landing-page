@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+  
+header {
+    background-color: black;
+    color: white;
+    margin-top: -22px;
+}
+
+header a{
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+header h1{
+    margin-left: 10px;
+}
+
+body {
+    background-color: rgb(180, 236, 255);
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, p {
+    font-family: system-ui;
+}
+
+h2 {
+    font-weight: 750;
+}
+
+#navbar-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#about-me, #travel, #hobbies {
+    display: flex;
+    margin-left: 25px;
+}
+
+#travel {
+}
+
+.text-right {
+    margin-left: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.img-desc {
+    font-weight: 750;
+}
+
+.content-section {
+    margin-top: 35px;
+}

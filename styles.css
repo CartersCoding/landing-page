@@ -72,3 +72,40 @@ p {
 .content-section {
     margin-top: 35px;
 }
+
+#twentytwentysix{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#twentytwentyfive{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure {
+    width: 200px;
+}
+
+figure img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+figure figcaption {
+    text-align: center;
+    padding-top: 10px;
+    font-family: system-ui;
+}
+
+.year {
+    text-align: center;
+}

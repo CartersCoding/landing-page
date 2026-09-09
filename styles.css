@@ -6,6 +6,8 @@ header {
     background-color: black;
     color: white;
     margin-top: -22px;
+    text-align: center;
+    /* justify-content: center; */
 }
 
 header a{
@@ -14,6 +16,12 @@ header a{
     margin-left: 10px;
     font-family: system-ui;
     padding: 10px;
+}
+
+
+#navbar-container {
+    display: flex;
+    justify-content: center;
 }
 
 .selected-page {
@@ -44,18 +52,20 @@ h2 {
     font-weight: 750;
 }
 
-#navbar-container {
-    display: flex;
-    justify-content: flex-start;
-}
-
 #about-me, #travel, #hobbies {
     display: flex;
     margin-left: 25px;
+    min-height: 200px;
 }
 
-#travel {
+#a380 {
+    margin-left: 25px;
 }
+
+#hobbies {
+    margin-bottom: 50px;
+}
+
 
 .text-right {
     margin-left: 20px;
@@ -118,8 +128,21 @@ figure figcaption {
     font-size: 12px;
 }
 
+#text-below {
+    margin-top: 15px;
+}
 
+#search-youtube {
+    background-color: red;
+}
 
+h3 {
+    color: red;
+}
+
+marquee {
+    color: white;
+}
 
 /* #youtube {
     padding: 25px;

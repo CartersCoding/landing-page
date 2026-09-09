@@ -109,3 +109,27 @@ figure figcaption {
 .year {
     text-align: center;
 }
+
+#youtube {
+    background-color: black;
+    padding: 25px;
+    color: white;
+    font-family: system-ui;
+    font-size: 12px;
+}
+
+
+
+
+/* #youtube {
+    padding: 25px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+#youtube form {
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+} */
